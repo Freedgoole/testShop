@@ -1,0 +1,130 @@
+.breadcrumbs {
+    display: flex;
+    margin: 10px 0;
+    list-style-type: none;
+  .breadcrumbs-item {
+    &::after {
+          content: '/';
+      }
+      &:last-child:after {
+        content: '';
+      }
+    .breadcrumbs-item_link {
+        color: #777777;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        margin: 0 5px;     
+        }
+    }
+}
+.page {
+    text-decoration: none;
+}
+.contant {
+    margin-top: 22px;
+    display: flex;
+}
+.nav-leftblock {
+    font-size: 18px;
+    .item-leftblock {
+        margin-bottom: 5px;
+        list-style-type: none;
+        letter-spacing: 0.2px;
+        color: #767676;
+        &:hover {
+            color: black;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        &_buble {
+            color: #767676;
+            margin-bottom: 5px; 
+            font-size: 14px;
+            margin-left: 25px;
+            &:hover {
+                color: black;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+        }     
+    }
+}
+.item_active {
+    text-decoration: underline;
+}
+.download {
+    margin-top:100px;
+}
+.wrapper_card {
+    flex-wrap: wrap;
+    display: flex;
+}
+.card {
+    width: 240px;
+    padding: 20px;
+    background-color: #dcdcdc;
+    margin: 0 8px 20px 8px;
+    &-descr_title {
+        margin: 20px 0;
+        font-size: 18px;
+        font-weight: 300px;
+        color: #767676;
+        line-height: 22px;
+    }
+    &-descr_prise {
+        display: flex;
+        justify-content: space-between;
+        bottom: 0;
+    }
+}
+.prise {
+    font-size: 28px;
+    color: #444444;
+    font-weight: bold;
+}
+.btn {
+    border: none;
+    width: 30px;
+    height: 28px;
+    background: url('../img/by.png') no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    cursor: pointer;
+}
+.leftblock {
+    width: 20%;
+}
+.centerblock {
+    width: 80%;
+}
+.pagination-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    list-style-type: none;
+    .pagination-item {
+        text-decoration: none;
+        color: #767676;
+        font-size: 14px;
+        margin: 0 10px;
+        &_activ {
+            font-size: 17px;  
+            color: #444444;
+        }
+    }
+}
+
+.descr {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 200px 0;
+    border-top: 1px solid #767676;
+    &-text {
+        width: 47%;
+        font-size: 14px;
+        color: #767676;
+        line-height: 22px;
+    }
+}
+

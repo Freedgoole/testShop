@@ -1,0 +1,54 @@
+.bx-wrapper, .bx-viewport {
+    height: 400px !important; //provide height of slider
+}
+.bx-controls-direction {
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+    top: -200px;
+    z-index: 999;
+}
+.bx-wrapper {
+    border: none;
+    margin-bottom: none;
+}
+.slide-item {
+    width: 100%;
+     img {
+         width: 100%;
+     }
+}
+.bx-next {
+    opacity: .5;
+    position: absolute;
+    right: 0;
+    height: 35px;
+    width: 60px;
+    display: block;
+    background: url('../img/arrow.png') no-repeat #d1d1d1;
+    background-size: 80% 100%;
+    background-position: 50% 10%;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.bx-prev {
+    opacity: .5;
+    position: absolute;
+    height: 35px;
+    width: 60px;
+    display: block;
+    background: url('../img/arrow.png') no-repeat #d1d1d1;
+    background-size: 80% 100%;
+    background-position: 50% 50%;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+} 
+.bx-controls .bx-has-controls-direction{
+    width: 980px;
+}
